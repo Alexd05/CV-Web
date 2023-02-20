@@ -1,11 +1,4 @@
 
-/*const api = 'https://randomuser.me/api/?gender=male';
-
-fetch(api)
-.then(response => response.json())
-.then(json => console.log(json))
-.catch(err => console.log('Solicitud fallida', err));*/
-
 document.getElementById("imprimir").addEventListener('click', function() {
     window.print();
 });
