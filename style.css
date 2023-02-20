@@ -49,6 +49,12 @@ li a:hover {
 
 /* Barra de navegación */
 
+@media screen and (max-width: 980px){
+    * {
+        background-image: url("fondo.svg");  
+    }
+}
+
 
 body {
     background-image: url("fondo.svg");
