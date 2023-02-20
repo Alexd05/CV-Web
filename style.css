@@ -49,15 +49,12 @@ li a:hover {
 
 /* Barra de navegación */
 
-html {
+
+body {
     background-image: url("fondo.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 106%;
-}
-
-
-body {
     margin: auto;
     padding: auto;
     height: auto;
