@@ -5,6 +5,7 @@
 
 /* Barra de navegación */
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -63,6 +64,7 @@ body {
 
 /* Carpeta de información */
 
+
 .carpeta { 
     /*background-color: #160aff;*/
     background-image: url(waves.svg);
@@ -79,9 +81,11 @@ body {
     box-shadow: 15px 15px 35px #454444, -5px 0px 25px #454444;
 }
 
+
 /* Carpeta de información */
 
 /* Imagen */
+
 
 .foto {
     margin: auto;
@@ -94,9 +98,11 @@ body {
     border-radius: 16px;
 }
 
+
 /* Imagen */
 
 /* Texto "datos" */
+
 
 .datos-mi {
     margin: auto;
@@ -104,6 +110,7 @@ body {
     margin-top: -150px;
     padding: auto;
 }
+
 
 .texto-datos {
     color: #bebcbc;
@@ -114,11 +121,15 @@ body {
 }
 
 
+/* Texto "datos" */
+
 /* Contacto */
+
 
 #pd {
     margin-left: 110px;
 }
+
 
 .wsp:link, .wsp:visited {
     background-color: none;
@@ -133,7 +144,8 @@ body {
     border: 1px solid #000000;
     border-radius: 8px;
 }
-  
+ 
+
 .wsp:hover, .wsp:active {
     background-color: #25D366;
     color: #ffffff;
@@ -159,7 +171,8 @@ body {
     border: 1px solid #000000;
     border-radius: 8px;
 }
-  
+
+
 .mail:hover, .mail:active {
     /*background-color: #ffffff;*/
     background: #ffffff;
@@ -186,6 +199,7 @@ body {
     border-radius: 8px;
 } 
 
+
 .ig:hover, .ig:active {
     color: #ffffff;
     border: 1px solid #bb0d52;
@@ -193,6 +207,7 @@ body {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
+
 
 .twitter {
     margin: auto;
@@ -212,19 +227,13 @@ body {
     border: 1px solid #000000;
     border-radius: 8px;
 }
-  
+ 
+
 .twitter:hover, .twitter:active {
     background-color: #0099ff;
     color: #ffffff;
     border: 1px solid #ffffff;  
 }
 
+
 /* Contacto */
-
-
-/* Texto "datos" */
-
-/* Imprimir */
-
-
-/* Imprimir */
