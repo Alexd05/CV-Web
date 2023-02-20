@@ -52,9 +52,6 @@ li a:hover {
 
 body {
     background-image: url("fondo.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 106%;
     margin: auto;
     padding: auto;
     height: auto;
