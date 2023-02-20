@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Barra de navegación */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #000000;
+}
+
+  
+li {
+    float: left;
+    border-right: 1px solid #000000;
+}
+  
+
+li a {
+    display: block;
+    color: #b9b4b4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+
+li a:hover {
+    background-color: #04AA6D;
+    color: #000000;
+}
+
+
+.activa {
+    background-color: #04AA6D;
+    color: #000000;
+}
+
+
+/* Barra de navegación */
+
+
+body {
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+    background-image: url("fondo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 106%;
+}
+
+
+/* Carpeta de información */
+
+.carpeta { 
+    /*background-color: #160aff;*/
+    background-image: url(waves.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1000%;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 10%;
+    padding: auto;
+    width: 700px;
+    height: 350px;
+    border: 1px solid #000;
+    box-shadow: 15px 15px 35px #454444, -5px 0px 25px #454444;
+}
+
+/* Carpeta de información */
+
+/* Imagen */
+
+.foto {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: auto;
+    width: 150px;
+    height: 150px;
+    border: hidden;
+    border-radius: 16px;
+}
+
+/* Imagen */
+
+/* Texto "datos" */
+
+.datos-mi {
+    margin: auto;
+    margin-left: 400px;
+    margin-top: -150px;
+    padding: auto;
+}
+
+.texto-datos {
+    color: #bebcbc;
+    margin-left: 40px;
+    text-indent: 300px;
+    line-height: 20px;
+    hyphens: auto;
+}
+
+
+/* Contacto */
+
+#pd {
+    margin-left: 110px;
+}
+
+.wsp:link, .wsp:visited {
+    background-color: none;
+    color: #000000;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: kanit;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+  
+.wsp:hover, .wsp:active {
+    background-color: #25D366;
+    color: #ffffff;
+    border: 1px solid #ffffff; 
+}
+
+
+.mail {
+    margin: auto;
+}
+
+
+.mail:link, .mail:visited {
+    background-color: none;
+    color: #000000;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: kanit;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+  
+.mail:hover, .mail:active {
+    /*background-color: #ffffff;*/
+    background: #ffffff;
+    color: #ff0000;
+    border: 1px solid #ff0000;  
+}
+
+
+.ig {
+    margin: auto;
+}
+
+
+.ig:link, .ig:visited { 
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: kanit;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 8px;
+} 
+
+.ig:hover, .ig:active {
+    color: #ffffff;
+    border: 1px solid #bb0d52;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.twitter {
+    margin: auto;
+}
+
+
+.twitter:link, .twitter:visited {
+    background-color: none;
+    color: #000000;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: kanit;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+  
+.twitter:hover, .twitter:active {
+    background-color: #0099ff;
+    color: #ffffff;
+    border: 1px solid #ffffff;  
+}
+
+/* Contacto */
+
+
+/* Texto "datos" */
+
+/* Imprimir */
+
+
+/* Imprimir */
