@@ -10,3 +10,5 @@ document.getElementById("imprimir").addEventListener('mouseover', function () {
 document.getElementById("imprimir").addEventListener('mouseout', function () {
     document.body.style.cursor = 'default';
 });
+
+//document.body.style.backgroundImage = 'fondo.svg';
